@@ -82,7 +82,7 @@ function UpdatePassword(hashedPassword, id) {
 function SendMail(email, subject, content) {
   transporter.sendMail({
     to: email,
-    from: "ragavofficial01@outlook.com",
+    from: "sannasichottu@outlook.com",
     subject: subject,
     html: content,
   });
